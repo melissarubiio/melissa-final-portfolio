@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Melissa Rubio's Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-expand-lg py-5 p-3 mb-2 bg-secondary text-white" id="navbar" >
+            <div class="container-fluid">
+              <a class="display-6" id="header" class="navbar-brand" aria-current="page" href="index.html">Melissa Rubio's Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html" >About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="mywork.html">My Work</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactme.html">Contact Me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+  
+    </body>
+
+    <body>
+      <div>
+          <h2 class="contact-style">Contact Me</h2>
+          <form class="contact-form" id="contactForm">
+              <label class="contactTitle">Name:</label>
+              <input class="userInput" type="text" name="nameField" id="username">
+              <label class="contactTitle">Email Address:</label>
+              <input class="userInput" type="email" name="emailField" id="email">
+              <label class="contactTitle">Message:</label>
+              <textarea class="messageInput" type="text" name="messageField" id="message"></textarea>
+              <button class="submitButton" type="submit" id="submit">Submit</button>
+          </form>
+      </div>
+  </body>
+
+    <footer id="bottom">
+      <section class="contact">
+        <div class="links">
+            <ul style="list-style: none;">
+                <a href="https://github.com/melissarubiio"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkeW4EifmDaThaEgBW_V8NR6XZu1gI50u3jkeIuTFhwQ&s" title="github"></a>
+                <a href="mailto: melirubio0603@gmail.com"><img src="data:image/png;base64,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" title="gmail"></a>
+                <li><a href="https://www.linkedin.com/in/melissa-rubio-4341981b1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAAAY1BMVEUCdLP///8AbrCFrdCPtNMAcbKaudfb5/EAZq1BiL3G2+rF2OgAbK8Aaa7k7vXe6vO0zOEjerZalMOrx94AYart9fmlwdv2+vy80eRQkcJ5p85roMo1g7rO3+3T5O9VjsA7f7lDMzMiAAADEUlEQVRoge3b25KjIBAAUMAQNQGvUTPRXP7/K9fLZJPQrUlN0TK1Sz/Mi9ScgAoNAuNjJMftZsXYHpPJZcOftJBKiRVDKVmkd74Ugq0eQpQTX0br40NE5cBflBudMXXp+Vi64mXMWejgvt9DhCxz1vZ962ds65LfssBl4wee97znjZBCCdoOeZ4Xin2dgrZTlL3SHC8P7XlKR6pa0v2AGV7dLvwRgV6XV9eKP0dJVX+Ul92rznlNlA+h/CHlZhQ0byfGqwDoPKFpfpSHlee8Jak+wssc0fmepPoIL04Yn1LoGK+2GF/dVuJ1ifHNjaL3/321Fy3GhxQ63u1gPM1sAH3vdwhPMxPDePkFdaJpKNr40RHwHU3Wgw+40ux2qUb8GT6/vOpU6w8z2Y7UTy//JV452+lDsTrsk44m2ReaLtudz3Sllrc47nJFOQ1YzvP7ILTf8fTheQL+04fGOj+sDUuW57kcF25/xEcgnsto8+LfXknqqKh333OUvsuoWx0t/gJ8lnPeGXE+PQrJ0rya5dOFKC4bc6w6tksdB87DAfdp8Q+MRzwZeXXLkDyhv9rOd5s/4UOU1ydzYvhogXzOt8ZHaH58L9DN3ABLvDycF/T+MZxJVyzxGuZHr1FR8nLzRu/niGjOYIVPr2/1mSmyFb7CZuRmJFjzW+E/ixOSq6/Ih2755gqbf0Web2D11+TTg1O+yWn5sC7irvsK9mDYnaIAN98iHxZKiyE3VzrGRwAo2eNr/ZSRROjQD5eGrfHGV3CN1X8HZqq2+Mp4qmWMFErAo2+LP5n/RO1hoYaKr8BdVdjaKFXjI/sfsJVhqie/hd25SmAxkHLa4Rtk2Q1bniPiE9idMoW8+iDhtMOnyFCukMybiA+RlS9sZRrcIzv8+b/m9573vOc973nPe97znve85z3vec9b+YppeYY77pp4jeWr+FeyD4r9m9sHPO95z/9u3vGRMMcH4lKXjZ8yqpMHn+gFZzx1dhZTpMNB2IxsK+hy6Gw6BpxJF8eA5fC5ZdwQnrg4BD1+6vrej+7qCPgfqkxAf1bZ+3YAAAAASUVORK5CYII=" title="linked in"></a>
+        </div>
+ </section>
+
+        <h5 id="made-by">Made by Melissa Rubio🌱</h5>
+
+        <p>© 2022 Melissa Rubio's Portfolio</p>
+    </footer>
+</html>
